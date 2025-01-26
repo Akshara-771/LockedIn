@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* General Container */
+body {
+  background-color: #372d35; /* Updated background color */
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', sans-serif; /* Pixelated font for everything */
+}
+
+/* Force the font on all text elements inside the todo-container */
+.todo-container,
+.todo-box,
+.todo-title,
+.upcoming-title,
+.todo-input,
+.todo-button,
+.todo-items,
+.todo-item,
+.delete-button,
+.upcoming-items,
+.upcoming-item {
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+/* Equal-sized containers */
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh; /* Full viewport height */
+  padding: 2rem;
+}
+
+/* Equal-sized containers */
+.todo-box {
+  flex: 1;
+  background-color: #978E87;
+  padding: 2rem;
+  border-radius: 10px;
+  color: #f0e6d2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  width: 400px; /* Fixed width for consistency */
+}
+
+/* Pixelated font for the Todo List header */
+.todo-title {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #f0e6d2;
+}
+
+.upcoming-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f0e6d2;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.todo-button {
+  padding: 0.7rem;
+  background-color: #f0e6d2;
+  color: #5d6d5d;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center; /* Centering the button */
+  width: 50%; /* Button width */
+  text-align: center;
+}
+
+.todo-button:hover {
+  background-color: #e5d8bf;
+}
+
+.todo-items {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2rem;
+  overflow-y: auto;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0e6d2;
+  color: #5d6d5d;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.delete-button {
+  padding: 0.3rem 0.5rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #e65d54;
+}
+
+/* Upcoming Tasks */
+.upcoming-items {
+  list-style-type: none;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.upcoming-item {
+  background-color: #f0e6d2;
+  color: #5d6d5d;
+  padding: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+/* Body background */
+body {
+  background-color: #9b86a7; /* Background color */
+}
+
+/* Dashboard Container */
+.Dashboard {
+  display: flex;
+  flex-direction: column; /* Stack the panels vertically */
+  align-items: center; /* Center align them horizontally */
+  padding: 20px;
+  gap: 20px; /* Space between the panels */
+  background-color: #c58997; /* Center container background color */
+}
+
+/* Left Panel Styling */
+.LeftPanel {
+  width: 100%; /* Full width */
+  background-color: #978e87; /* Light color from the palette */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome Back Text Styling */
+.LeftPanel .left-panel-welcome {
+  font-size: 2rem; /* Larger font size */
+  font-weight: bold;
+  color: #aa4761; /* Accent color */
+  text-align: center; /* Center the text */
+  margin-bottom: 10px; /* Space below the welcome text */
+}
+
+/* All Paragraphs Styling (change color to #AA4761) */
+.LeftPanel p,
+.RightPanel p,
+.FeaturesSection p {
+  font-size: 1em;
+  color: #aa4761; /* Set all paragraphs to this color */
+}
+
+/* Left Panel Heading */
+.LeftPanel .left-panel-heading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #264143;
+}
+
+/* Right Panel Styling */
+.RightPanel {
+  width: 100%; /* Full width */
+  background-color: #9b86a7; /* Light purple from the palette */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RightPanel h2 {
+  color: #aa4761; /* Accent color */
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.RightPanel p {
+  font-size: 1em;
+  color: #eddcd9;
+}
+
+/* Features Section Styling */
+.FeaturesSection {
+  width: 100%; /* Full width */
+  background-color: #eddcd9; /* Lighter background for this section */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.FeaturesSection h2 {
+  color: #aa4761; /* Accent color */
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.FeaturesSection p {
+  font-size: 1em;
+  color: #aa4761; /* Set paragraph color */
+}

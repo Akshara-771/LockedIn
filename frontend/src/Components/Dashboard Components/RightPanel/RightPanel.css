@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.right-panel {
+  position: relative;
+  width: 50%;
+  background-color: #d4e2c4;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Add space between sections */
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.avatar-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px; /* Add space between avatar and username */
+}
+
+.avatar-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.username {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Add space between stat items */
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align icon and text */
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.icon {
+  width: 10px;
+  height: 10px;
+}

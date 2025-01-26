@@ -1,0 +1,27 @@
+/* src/components/Header.css */
+
+.header {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  align-items: center;
+  position: relative;
+  background-color: #978e87; /* Matches bg-gray-800 */
+  color: white;
+  padding: 2rem; /* Adds space around the header */
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 20px;
+  height: 25px;
+  position: relative;
+  top: 1rem; /* Positioned 2rem from the top */
+  left: 1rem; /* Positioned 2rem from the left */
+  height: 50px; /* Resized to fit well */
+}
+
+.tagline {
+  font-size: 100%;
+  font-weight: 300; /* Light font */
+  margin-top: 1rem;
+}

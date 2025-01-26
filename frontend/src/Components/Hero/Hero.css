@@ -1,0 +1,72 @@
+/* Hero Section Styling */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f4ec; /* Subtle background color */
+}
+
+/* Left Section Styling */
+.hero-left-section {
+  flex: 1;
+  text-align: left;
+  padding-right: 2rem;
+}
+
+.hero-left-quote {
+  font-size: 2.5rem; /* Proportionally larger */
+  font-style: italic;
+  color: #a67b5b; /* Light brown color */
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 1rem;
+  color: #8b4513; /* Brown color */
+  margin-bottom: 1.5rem;
+}
+
+/* Updated Button Group */
+.hero-left-button-group {
+  display: flex; /* Change to flex */
+  flex-direction: row; /* Align buttons horizontally */
+  justify-content: center; /* Center-align buttons horizontally */
+  gap: 1.5rem; /* Space between buttons */
+}
+
+.hero-left-login,
+.hero-left-signup {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #90ee90; /* Light green color */
+  color: #fff; /* White text for contrast */
+  transition: background-color 0.3s ease;
+  min-width: 120px; /* Ensure consistent button width */
+  text-align: center;
+}
+
+.hero-left-login:hover,
+.hero-left-signup:hover {
+  background-color: #76c576; /* Slightly darker green on hover */
+}
+
+/* Right Section Styling */
+.hero-right-section {
+  flex: 1;
+  text-align: right; /* Right-aligned content */
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-avatar {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
